@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Agendamento</title>
+</head>
+<body>
+    <header>
+        <h1>Agende um atendimento</h1>
+        <p>Selecione data, horário e informe o nome do cliente para criar o agendamento</p>
+    </header>
+    <section>
+        <label>Data <input type="date" name="data"></label><br>
+        <label>Cliente <br><img src="img/download.png" alt="ícone do cliente" width="10px" height="10px" margin-right="5px">
+        <input type="text" name="Nome do cliente" placeholder="Nome do cliente"></label>
+    </section>
+    <section>
+        <p>Horários</p>
+        <ul>
+            <li>Manhã</li>
+            <li>09:00</li>
+            <li>10:00</li>
+            <li>11:00</li>
+            <li>12:00</li>
+            <li>Tarde</li>
+            <li>13:00</li>
+            <li>14:00</li>
+            <li>15:00</li>
+            <li>16:00</li>
+            <li>17:00</li>
+            <li>18:00</li>
+            <li>Noite</li>
+            <li>19:00</li>
+            <li>20:00</li>
+            <li>21:00</li>
+        </ul>
+        <button>Agendar</button>
+    </section>
+    <section name="agendamentos">
+        <h1>Agendamentos</h1>
+        <p>Visualize os agendamentos de acordo com o da selecionado</p><br>
+        <input type="date">
+        <p><img src="img/manha.png" alt="ícone da manha" width="15px" height="15px" margin-right="10px"> <strong>Manhã</strong> 09h-12h</p>
+        <ul>
+            <li><strong>09:00</strong> vitória <img src="img/cancelamento.png" alt="ícone de cancelamento" width="15px" height="15px" margin-rigth="10px"></li>
+        </ul>
+        <p><img src="img/tarde.png" alt="ícone da tarde" width="15px" height="15px" margin-right="10px"> <strong>Tarde </strong>13h-18h</p>
+        <p><img src="img/noite.png" alt="ícone da noite" width="15px" height="15px" margin-right="10px"> <strong>Noite </strong>19h-21h</p>
+    </section>
+
+    
+</body>
+</html>
